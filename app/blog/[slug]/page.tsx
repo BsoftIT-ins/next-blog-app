@@ -30,7 +30,7 @@ export default async function BlogArticle({
     return (
         <div>
             <h1>
-                <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">Azizul's Blog</span>
+                <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase">Azizuls Blog</span>
                 <span className="mt-2 block text-3xl text-center leading-8 font-bold tracking-tight sm:text-4xl ">{data.title}</span>
             </h1>
             <Image src={urlFor(data.titleImage).url()} width={800} height={800} alt="Title Image" priority className="rounded-lg mt-8 border"/>
